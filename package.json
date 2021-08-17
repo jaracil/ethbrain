@@ -1,0 +1,26 @@
+{
+  "name": "ethbrain",
+  "version": "1.0.0",
+  "description": "Create Ethereum wallet from secret passphrase",
+  "main": "index.js",
+  "repository": "https://github.com/jaracil/ethbrain",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "brainwallet",
+    "ethereum",
+    "wallet"
+  ],
+  "author": "Jose Luis Aracil",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ethers": "^5.4.4",
+    "promptly": "^3.2.0",
+    "qrcode": "^1.4.4"
+  },
+  "bin": {
+    "ethbrain": "./index.js"
+  }
+}
